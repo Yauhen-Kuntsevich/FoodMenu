@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SOUaHINDql4BH2vQiOlHkCEWD9CipYJVq5I3vu391qppkHIJR2hHkVJPTNucqJTnRv5IDMJMTJ5HTCXVLTFoaQ==",
+  "dgSpecHash": "4cG6o55rrIDgPrLvQwjKHnYq122cqb6HEc/560TxevAENyStNPtokEke2uLoCryvMxi7GCdIZjnCA/nRvlHLFw==",
   "success": true,
   "projectFilePath": "/home/cmaczok/Code/NET_projects/FoodMenu/FoodMenu/FoodMenu.csproj",
   "expectedPackageFiles": [
+    "/home/cmaczok/.nuget/packages/dotenv.net/3.1.3/dotenv.net.3.1.3.nupkg.sha512",
     "/home/cmaczok/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/cmaczok/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/home/cmaczok/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
