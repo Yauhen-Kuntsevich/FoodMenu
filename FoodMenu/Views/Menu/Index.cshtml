@@ -1,0 +1,27 @@
+@model List<FoodMenu.Models.Dish>
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <div class="row">
+        @foreach (var dish in Model)
+        {
+            <div class="col-6">
+                <div class="d-flex justify-content-center">
+                    <h4>@dish.Name</h4>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <img src=@dish.ImageUrl alt="Pizza" style="width: 70%" />
+                </div>
+                <div class="d-flex justify-content-center">
+                    @dish.Price.ToString("N2") Dollars
+                </div>
+                <div class="d-flex justify-content-center">
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@dish.Id">View dish</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>
